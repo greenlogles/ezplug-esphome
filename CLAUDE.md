@@ -9,4 +9,4 @@ ESPHome config for TH3D EZPlug v2 plugs (ESP32-C3, esp-idf, BL0937). See README.
 - Config style follows the user's other ESPHome plugs in `~/ha-config/esphome/sonoff-s31-*.yaml`.
 - Logger must stay on `USB_SERIAL_JTAG`, because GPIO20 (UART0 RX) is the button.
 - The BL0937 SEL pin must be `inverted: True`. Without it, voltage was reported as current (verified on the device).
-- Plug 172.16.3.68 (`ezplug-073548`) is already migrated to the ESPHome partition table, so plain OTA works.
+- Migrated to the ESPHome partition table (plain OTA works): 172.16.3.68 (`ezplug-073548.yaml`), 172.16.3.131 (`ezplug-073920.yaml`).
